@@ -3,16 +3,16 @@ Name: PUSH NE
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH NE' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy-1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -250
 Text:   N.E
@@ -21,11 +21,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -250
 Text:   N.E
@@ -36,16 +36,16 @@ Name: PUSH N
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH N' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy-1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 51
+PositionX: 41
 AlignY: Bottom
 PositionY: -250
 Text:     N
@@ -54,11 +54,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 51
+PositionX: 41
 AlignY: Bottom
 PositionY: -250
 Text:     N
@@ -69,16 +69,16 @@ Name: PUSH NW
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH NW' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy-1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -250
 Text:   N.W
@@ -87,11 +87,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -250
 Text:   N.W
@@ -102,16 +102,16 @@ Name: PUSH W
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH W' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -218
 Text:     W
@@ -120,11 +120,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -218
 Text:     W
@@ -135,16 +135,16 @@ Name: PUSH SW
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy+1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy+1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH SW' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx-1] [$target.posy+1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -185
 Text:   S.W
@@ -153,11 +153,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 20
+PositionX: 10
 AlignY: Bottom
 PositionY: -185
 Text:   S.W
@@ -168,16 +168,16 @@ Name: PUSH S
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH S' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx] [$target.posy+1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 51
+PositionX: 41
 AlignY: Bottom
 PositionY: -185
 Text:     S
@@ -186,11 +186,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 51
+PositionX: 41
 AlignY: Bottom
 PositionY: -185
 Text:     S
@@ -201,16 +201,16 @@ Name: PUSH SE
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH SE' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy+1] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -185
 Text:   S.E
@@ -219,11 +219,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -185
 Text:   S.E
@@ -234,16 +234,16 @@ Name: PUSH E
 Enabled: yes
 DrawAsBackground: yes
 Size: Small
-LeftCommand: {if [$ctrl] useoncreature 3164 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]}
+LeftCommand: {if [$ctrl] useoncreature 3197 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]}
 RightCommand: auto 500 listas 'PUSH E' | {if [$ctrl] useoncreature 3188 target | if [$alt] useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]} | if [$hotkeys == 1 && $ctrl == 1] {useoncreature 3197 target | loop 20 moveitemonground [$target.posx] [$target.posy] [$target.posz] [$target.posx+1] [$target.posy] [$target.posz]}
 
 State: Inactive
 IconType: Normal
-IconIds: 2126 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -218
 Text:     E
@@ -252,11 +252,11 @@ HoverColor: 16777215
 
 State: Active
 IconType: Normal
-IconIds: 3020 0 0 0
+IconIds: 3197 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 82
+PositionX: 72
 AlignY: Bottom
 PositionY: -218
 Text:     E
@@ -276,7 +276,7 @@ IconIds: 284 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 40
 AlignY: Bottom
 PositionY: -218
 Text:   P.M
@@ -289,7 +289,7 @@ IconIds: 284 0 0 0
 BkgType: Normal
 BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 40
 AlignY: Bottom
 PositionY: -218
 Text:   P.M
@@ -329,36 +329,36 @@ Text: Chrge
 TextColor: 789754
 HoverColor: 0
 
-Name: Firebomb
+Name: Poisonbomb
 Enabled: yes
 DrawAsBackground: no
 Size: Small
-LeftCommand: useoncreature 3192 self
+LeftCommand: useoncreature 3173 self
 RightCommand: 
 
 State: Inactive
 IconType: Normal
-IconIds: 3192 0 0 0
+IconIds: 3173 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
 PositionX: 35
 AlignY: Bottom
 PositionY: -30
-Text:    FB
+Text:    PB
 TextColor: 16776960
 HoverColor: 0
 
 State: Active
 IconType: Normal
-IconIds: 3192 0 0 0
+IconIds: 3173 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
 PositionX: 35
 AlignY: Bottom
 PositionY: -30
-Text: Fbomb
+Text:    PB
 TextColor: 255
 HoverColor: 0
 
@@ -395,36 +395,36 @@ Text: Anti
 TextColor: 255
 HoverColor: 0
 
-Name: Energy Ring 40% - Unequip 80
+Name: Dash
 Enabled: yes
 DrawAsBackground: no
 Size: Small
-LeftCommand: auto 100 listas 'Might Ring 60% - Godly Ring 80%' |  if [$hppc < 40] {equipring 3051} | if [$hppc > 80] {equipring '406'}
+LeftCommand: auto 200 dash
 RightCommand: 
 
 State: Inactive
 IconType: Normal
-IconIds: 3051 0 0 0
+IconIds: 9017 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 103
+PositionX: 100
 AlignY: Bottom
 PositionY: -30
-Text: ERng
+Text: Dash
 TextColor: 16776960
 HoverColor: 0
 
 State: Active
 IconType: Normal
-IconIds: 3051 0 0 0
+IconIds: 9017 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 103
+PositionX: 100
 AlignY: Bottom
 PositionY: -30
-Text: ERng
+Text: Dash
 TextColor: 255
 HoverColor: 0
 
@@ -432,7 +432,7 @@ Name: Bugmap
 Enabled: yes
 DrawAsBackground: no
 Size: Small
-LeftCommand: auto 1 listas 'BASIQ DODGE' | if [$key.37] {usegroundxyz [$posx-4] $posy $posz | end} if [$key.39] {usegroundxyz [$posx+4] $posy $posz | end} if [$key.40] {usegroundxyz $posx [$posy+4] $posz | end} if [$key.38] {usegroundxyz $posx [$posy-4] $posz | end}
+LeftCommand: auto 1 listas 'BASIQ DODGE' | if [$key.37] {usegroundxyz [$posx-2] $posy $posz | end} if [$key.39] {usegroundxyz [$posx+2] $posy $posz | end} if [$key.40] {usegroundxyz $posx [$posy+2] $posz | end} if [$key.38] {usegroundxyz $posx [$posy-2] $posz | end}
 RightCommand: 
 
 State: Inactive
@@ -441,7 +441,7 @@ IconIds: 2967 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 138
+PositionX: 134
 AlignY: Bottom
 PositionY: -30
 Text: Bmap
@@ -454,7 +454,7 @@ IconIds: 2967 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 138
+PositionX: 134
 AlignY: Bottom
 PositionY: -30
 Text: Bmap
@@ -510,7 +510,7 @@ AlignX: Right
 PositionX: 35
 AlignY: Bottom
 PositionY: -65
-Text: Tool
+Text:   Cut
 TextColor: 16776960
 HoverColor: 0
 
@@ -523,13 +523,13 @@ AlignX: Right
 PositionX: 35
 AlignY: Bottom
 PositionY: -65
-Text: Cut
+Text:   Cut
 TextColor: 255
 HoverColor: 0
 
 Name: flower N
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx] [$posy-1] $posz 2981 1
 RightCommand: 
@@ -538,31 +538,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -370
-Text:  N
+PositionY: -250
+Text:    N
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -370
+PositionY: -250
 Text: N
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower NE
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx+1] [$posy-1] $posz 2981 1
 RightCommand: 
@@ -571,31 +571,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -370
-Text: NE
+PositionY: -250
+Text:   NE
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -370
+PositionY: -250
 Text: NE
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower E
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx+1] [$posy] $posz 2981 1
 RightCommand: 
@@ -604,31 +604,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -335
-Text: E
+PositionY: -218
+Text:     E
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
-IconType: Resize
+IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -335
+PositionY: -218
 Text: E
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower SE
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx+1] [$posy+1] $posz 2981 1
 RightCommand: 
@@ -637,31 +637,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -300
-Text: SE
+PositionY: -185
+Text:    SE
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 110
+PositionX: 190
 AlignY: Bottom
-PositionY: -300
+PositionY: -185
 Text: SE
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower S
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx] [$posy+1] $posz 2981 1
 RightCommand: 
@@ -670,31 +670,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -300
-Text:  S
+PositionY: -185
+Text:    S
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -300
+PositionY: -185
 Text: S
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower SW
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx-1] [$posy+1] $posz 2981 1
 RightCommand: 
@@ -703,31 +703,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -300
-Text: SW
+PositionY: -185
+Text:   SW
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -300
+PositionY: -185
 Text: SW
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower W
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx-1] [$posy] $posz 2981 1
 RightCommand: 
@@ -736,31 +736,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -335
-Text: W
+PositionY: -218
+Text:    W
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -335
+PositionY: -218
 Text: W
 TextColor: 255
 HoverColor: 16776960
 
 Name: flower NW
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: dropitemsxyzamount [$posx-1] [$posy-1] $posz 2981 1
 RightCommand: 
@@ -769,31 +769,31 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -370
-Text: NW
+PositionY: -250
+Text:   NW
 TextColor: 16776960
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 50
+PositionX: 130
 AlignY: Bottom
-PositionY: -370
+PositionY: -250
 Text: NW
 TextColor: 255
 HoverColor: 16776960
 
 Name: collect flower
 Enabled: yes
-DrawAsBackground: yes
+DrawAsBackground: no
 Size: Small
 LeftCommand: auto 100 | listas 'collect flowers' | collectitems 'empty' 2981
 RightCommand: 
@@ -802,60 +802,27 @@ State: Inactive
 IconType: Normal
 IconIds: 2981 0 0 0
 BkgType: Normal
-BkgIds: 10145 0 0 0
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -335
-Text: Pick
+PositionY: -218
+Text:    *
 TextColor: 65535
 HoverColor: 16776960
 
 State: Active
 IconType: Normal
 IconIds: 2981 0 0 0
-BkgType: Left
-BkgIds: 10145 0 0 0
+BkgType: Normal
+BkgIds: 563 0 0 0
 AlignX: Right
-PositionX: 80
+PositionX: 160
 AlignY: Bottom
-PositionY: -335
+PositionY: -218
 Text: ON
 TextColor: 65280
 HoverColor: 16776960
-
-Name: Catalyst PvP Icons
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: 
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Left
-PositionX: 0
-AlignY: Absolute
-PositionY: -15
-Text: Catalyst EK Icons.
-TextColor: 16776960
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Previous
-PositionX: 0
-AlignY: Absolute
-PositionY: 0
-Text: 
-TextColor: 16776960
-HoverColor: 0
 
 Name: SSA 40%
 Enabled: yes
@@ -873,7 +840,7 @@ AlignX: Right
 PositionX: 68
 AlignY: Bottom
 PositionY: -65
-Text: SSA
+Text:   40%
 TextColor: 16776960
 HoverColor: 0
 
@@ -886,7 +853,7 @@ AlignX: Right
 PositionX: 68
 AlignY: Bottom
 PositionY: -65
-Text: SSA
+Text:   40%
 TextColor: 255
 HoverColor: 0
 
@@ -903,7 +870,7 @@ IconIds: 2836 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 103
+PositionX: 100
 AlignY: Bottom
 PositionY: -65
 Text: Bless
@@ -916,76 +883,10 @@ IconIds: 2836 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
-PositionX: 103
+PositionX: 100
 AlignY: Bottom
 PositionY: -65
 Text: Bless
-TextColor: 255
-HoverColor: 0
-
-Name: Onscreen
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: say On screen  [$playersaround.20] + Me. 
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 3504 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Right
-PositionX: 138
-AlignY: Bottom
-PositionY: -65
-Text: Onscr
-TextColor: 16776960
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 3504 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Right
-PositionX: 138
-AlignY: Bottom
-PositionY: -65
-Text: Onscr
-TextColor: 255
-HoverColor: 0
-
-Name: Exori if 3 creatures
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: auto 100 listas ‘Exori 3 creatures + No players’ | if [$monstersaround.1 >= 3 && $playersaround.6 == 0] say exori
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 6561 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 0
-AlignY: Bottom
-PositionY: -30
-Text: Exori
-TextColor: 65535
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 6561 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 0
-AlignY: Bottom
-PositionY: -30
-Text: Exori
 TextColor: 255
 HoverColor: 0
 
@@ -993,7 +894,7 @@ Name: Anti-Para
 Enabled: yes
 DrawAsBackground: no
 Size: Small
-LeftCommand: auto 100 healparalysis 'utani hur'
+LeftCommand: auto 400 healparalysis 'utani hur'
 RightCommand: 
 
 State: Inactive
@@ -1019,105 +920,6 @@ PositionX: 0
 AlignY: Bottom
 PositionY: -100
 Text: 0Para
-TextColor: 255
-HoverColor: 0
-
-Name: CaveBot
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: 
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Absolute
-PositionX: 0
-AlignY: Bottom
-PositionY: -550
-Text: * CaveBot Icons *
-TextColor: 65535
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Absolute
-PositionX: 0
-AlignY: Absolute
-PositionY: 0
-Text: 
-TextColor: 0
-HoverColor: 0
-
-Name: PvP
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: 
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Right
-PositionX: 10
-AlignY: Absolute
-PositionY: 0
-Text: * PvP Icons *
-TextColor: 16776960
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 0 0 0 0
-BkgType: Normal
-BkgIds: 0 0 0 0
-AlignX: Absolute
-PositionX: 0
-AlignY: Absolute
-PositionY: 0
-Text: 
-TextColor: 0
-HoverColor: 0
-
-Name: EatFood
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: auto 10000 eatfood
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 3725 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 32
-AlignY: Bottom
-PositionY: -30
-Text: Food
-TextColor: 65535
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 3725 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 32
-AlignY: Bottom
-PositionY: -30
-Text: Food
 TextColor: 255
 HoverColor: 0
 
@@ -1158,98 +960,32 @@ Name: Collect Items
 Enabled: yes
 DrawAsBackground: no
 Size: Small
-LeftCommand: auto 100 collectitems 'empty' 3555 3388 3414 3031 3035 3725 3043 3492 3447 7368 5801 9019 8090 6529 3051 8097 10384 285 284
+LeftCommand: auto 100 collectitems 'empty' '3031' '3035' '3725' '3043' '3031' '9019' '6390' '8063' '8060' '3253' '3606' '3775' '8154' '283' '284' '285' '2393' '6529' '3278' '7429' '7368' '3395' '8040' '8076' '9014' '9018' '651' '349' '9586' '3423' '8099' '8097' '3363' '3365' '3532' '3021' '3588' '3590' '3591' '3492' '8012' '130' '3735' '8017'
 RightCommand: 
 
 State: Inactive
 IconType: Normal
-IconIds: 6526 0 0 0
+IconIds: 2854 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
 PositionX: 68
 AlignY: Bottom
 PositionY: -100
-Text: cLect
+Text: Item
 TextColor: 16776960
 HoverColor: 0
 
 State: Active
 IconType: Normal
-IconIds: 6526 0 0 0
+IconIds: 2854 0 0 0
 BkgType: Normal
 BkgIds: 10145 0 0 0
 AlignX: Right
 PositionX: 68
 AlignY: Bottom
 PositionY: -100
-Text: cLect
-TextColor: 255
-HoverColor: 0
-
-Name: Anti Idle
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: auto 200 listas 'Dance' | turnn | wait 100 | turne | wait 100 | turns | wait 100 | turnw | wait 100 | turnn
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 9062 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 65
-AlignY: Bottom
-PositionY: -30
-Text: Idle
-TextColor: 65535
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 9062 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 65
-AlignY: Bottom
-PositionY: -30
-Text: Idle
-TextColor: 255
-HoverColor: 0
-
-Name: If mana < 90% utito tempo
-Enabled: yes
-DrawAsBackground: no
-Size: Small
-LeftCommand: auto 100 listas 'Mana Trainer' | if [$mppc > 90] say 'utito tempo'
-RightCommand: 
-
-State: Inactive
-IconType: Normal
-IconIds: 3249 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 98
-AlignY: Bottom
-PositionY: -30
-Text: Train
-TextColor: 65535
-HoverColor: 0
-
-State: Active
-IconType: Normal
-IconIds: 3249 0 0 0
-BkgType: Normal
-BkgIds: 10145 0 0 0
-AlignX: Absolute
-PositionX: 98
-AlignY: Bottom
-PositionY: -30
-Text: Train
+Text: Item
 TextColor: 255
 HoverColor: 0
 
@@ -1283,5 +1019,269 @@ PositionX: 100
 AlignY: Bottom
 PositionY: -100
 Text: Exiva
+TextColor: 255
+HoverColor: 0
+
+Name: Spy
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: spyup
+RightCommand: spydown
+
+State: Inactive
+IconType: Normal
+IconIds: 3484 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 134
+AlignY: Bottom
+PositionY: -100
+Text:   Spy
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 3484 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 134
+AlignY: Bottom
+PositionY: -100
+Text:   Spy
+TextColor: 255
+HoverColor: 0
+
+Name: Pot Friend 60%
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: auto 10 listas 'Pot friend 60%' | setcolor 0 400 500 | set $potionid 7643 | set $perc 60 | set $dist 2 | clear $best | set $lowest 100 | foreach 'screenplayers' $fr {if [$fr.distance <= $dist && $fr.hppc < $perc && $fr.hppc < $lowest && ($fr.isfriend || $fr.issubfriend)] {set $lowest $fr.hppc | set $best $fr}} | if [$hppc <= $perc] set $best $self | if $best {dashchase $best.id | useoncreature $potionid $best.id | wait 300}
+RightCommand: 
+
+State: Inactive
+IconType: Normal
+IconIds: 7643 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 134
+AlignY: Bottom
+PositionY: -65
+Text: Frnd
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 7643 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 134
+AlignY: Bottom
+PositionY: -65
+Text: Frnd
+TextColor: 255
+HoverColor: 0
+
+Name: Equip dwarven legs
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equiplegs '3398'
+RightCommand: equiplegs '3363'
+
+State: Inactive
+IconType: Normal
+IconIds: 3398 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 2
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 3398 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 2
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 255
+HoverColor: 0
+
+Name: Equip koshei
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equipammy '7532'
+RightCommand: equipammy '3013'
+
+State: Inactive
+IconType: Normal
+IconIds: 7532 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 34
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 7532 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 34
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 255
+HoverColor: 0
+
+Name: Equip skullcracker
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equipchest '8061'
+RightCommand: equipchest '11651'
+
+State: Inactive
+IconType: Normal
+IconIds: 8061 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 65
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 8061 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 65
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 255
+HoverColor: 0
+
+Name: Equip zao helmet
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equiphelm '10385'
+RightCommand: equiphelm '3368'
+
+State: Inactive
+IconType: Normal
+IconIds: 10385 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 97
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 10385 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Previous
+PositionX: 32
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 255
+HoverColor: 0
+
+Name: Equip zao armor
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equipchest '10384'
+RightCommand: equipchest '11651'
+
+State: Inactive
+IconType: Normal
+IconIds: 10384 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 160
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 10384 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 160
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 255
+HoverColor: 0
+
+Name: Equip boh
+Enabled: yes
+DrawAsBackground: no
+Size: Small
+LeftCommand: equipboots '3079'
+RightCommand: equipboots '9017'
+
+State: Inactive
+IconType: Normal
+IconIds: 3079 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 128
+AlignY: Absolute
+PositionY: 600
+Text:     *
+TextColor: 16776960
+HoverColor: 0
+
+State: Active
+IconType: Normal
+IconIds: 3079 0 0 0
+BkgType: Normal
+BkgIds: 10145 0 0 0
+AlignX: Right
+PositionX: 128
+AlignY: Absolute
+PositionY: 600
+Text:     *
 TextColor: 255
 HoverColor: 0
